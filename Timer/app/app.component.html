@@ -1,0 +1,12 @@
+﻿<h2>Time: {{(minutes) && (minutes <=59) ? minutes : '00'}}:{{(seconds) && (seconds <=59) ? seconds : '00'}}:{{(milliseconds) && (milliseconds <=99) ? milliseconds : '00'}}</h2>
+<br />
+<div class="busy" [ngBusy]="busy"></div>
+<div class="buttons">
+    <button class="button1" (click)="start()">{{button1}}</button>
+    <button class="button1" (click)="LapTime()">LAP TIME</button>
+</div>
+    <table class="TimesTable" style="text-align:center;">
+        <tr><th>Lap time table:</th></tr>
+        <tr *ngFor="let times of LapTimeTable"><td>{{times}}</td></tr>
+    </table>
+

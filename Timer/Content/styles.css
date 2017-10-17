@@ -1,0 +1,47 @@
+﻿body
+{
+    background-color: darkolivegreen;
+}
+h2
+{
+    text-align: center;
+    font-size: 70px;
+    border-style:groove;
+    margin-top: 50px;
+    padding: 50px;
+}
+.button1 {
+    background-color: darkseagreen;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.buttons
+{
+    text-align: center;
+    z-index: 50;
+}
+.TimesTable
+{
+   width: 70%;
+   margin-left: 15%; 
+   margin-right:15%
+}
+.TimesTable tr
+{
+   text-align:center;
+   font-size:25px; 
+}
+.TimesTable th
+{
+    font-size: 35px;
+    text-align:center;
+}
+.busy
+{
+    position:relative;
+}
